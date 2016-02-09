@@ -1094,8 +1094,6 @@ LONGBOW_TEST_CASE(Performance, athenaPIT_Add_Remove)
     if (abs(delta2 - delta1) < (delta1 * 0.20)) {
         testWarn("Steady state time is not constant");
     }
-
-    //assertTrue(abs(delta2 - delta1) < (delta1 * 0.20), "Steady state time is not constant");
 }
 
 
